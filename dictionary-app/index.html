@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Word Master</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #1272d1; /* Light background color */
+      color: #343a40; /* Dark text color */
+    }
+    .header-block {
+      background-color: #ffc107; /* Header background color */
+      color: #343a40; /* Header text color */
+      padding: 30px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    .form-block {
+      background-color: #343a40; /* Form block background color */
+      color: #f1eaea; /* Form block text color */
+      padding: 40px;
+      border-radius: 10px;
+    }
+    .card {
+      border-color: #ffc107; /* Card border color */
+    }
+    .footer {
+      background-color: #87d538; /* Footer background color */
+      color: #343a40; /* Footer text color */
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid header-block">
+    <header class="text-center">
+      <h1>WEB MASTER</h1>
+      <p>A place to explore words and their meanings</p>
+    </header>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 form-block">
+        <form id="form" autocomplete="off">
+          <label for="input" class="display-5">Enter a word</label>
+          <input type="text" class="form-control border border-warning" id="input">
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card mb-3">
+          <h5 class="card-header bg-warning text-white">Synonyms</h5>
+          <div class="card-body">
+            <p class="card-text" id="responseField2">A word or phrase that means exactly or nearly the same as another word or phrase in the same language, for example shut is a synonym of close.</p>
+            <button type="button" class="btn btn-outline-warning" id="submit2">Find Synonyms</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card mb-3">
+          <h5 class="card-header bg-warning text-white">Antonyms</h5>
+          <div class="card-body">
+            <p class="card-text" id="responseField1">In lexical semantics, opposites are words lying in an inherently incompatible binary relationship. For example, something that is long entails that it is not short.</p>
+            <button type="button" class="btn btn-outline-warning" id="submit1">Find Antonyms</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card mb-3">
+          <h5 class="card-header bg-warning text-white">Rhyming Words</h5>
+          <div class="card-body">
+            <p class="card-text" id="responseField3">Rhyming words are two or more words that have the same or similar ending sound. Some examples of rhyming words are: goat, boat, moat, float, coat.</p>
+            <button type="button" class="btn btn-outline-warning" id="submit3">Find Rhyming Words</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center footer">
+    <p>© 2023 YourWebsiteName. All Rights Reserved.</p>
+    <p>Made By AAKARSH SRIVASTAWA</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="public/main.js"></script>
+  <script src="public/one.js"></script>
+</body>
+</html>
